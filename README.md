@@ -5,8 +5,12 @@ cdiscount doit assurer une catégorisation homogène de ces produits aux origine
 
 Solution structurée autour d'une approche bagging / staging via un Ensemble de pyramides de Régressions Logistiques : «staged-logistic-regressions ensemble»
 
-Note méthodologique complête: 
+Note méthodologique complète:
+
 [note_methodologique.pdf](https://github.com/ngaude/cdiscount/note_methodologique.pdf)
 
+
+
 Reproduire les résultats d'un ensemble à 5 pyramides (validation ~73%, test ~67,4%):
+
 [pipeline.sh](https://github.com/ngaude/cdiscount/pipeline.sh)
