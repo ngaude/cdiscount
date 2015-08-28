@@ -3,8 +3,10 @@
 *cdiscount opère une offre “marketplace” qui référence des produits en provenance de commerçants partenaires. Pour assurer une visibilité maximale de ces produits sur son site,
 cdiscount doit assurer une catégorisation homogène de ces produits aux origines variées.*
 
-La proposition est structurée autour d'une approche bagging / staging via un Ensemble de pyramides de Régressions Logistiques : «staged-logistic-regressions ensemble»
+Solution structurée autour d'une approche bagging / staging via un Ensemble de pyramides de Régressions Logistiques : «staged-logistic-regressions ensemble»
 
-La note methodologique complête est disponible [ici](https://github.com/ngaude/cdiscount/note_methodologique.pdf)
+Note méthodologique complête: 
+[note_methodologique.pdf](https://github.com/ngaude/cdiscount/note_methodologique.pdf)
 
-Pour reproduire les résultats d'un ensemble de 5 pyramides [pipeline.sh](https://github.com/ngaude/cdiscount/pipeline.sh)
+Reproduire les résultats d'un ensemble à 5 pyramides (67,4%):
+[pipeline.sh](https://github.com/ngaude/cdiscount/pipeline.sh)
