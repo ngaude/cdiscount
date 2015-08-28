@@ -8,5 +8,5 @@ Solution structurée autour d'une approche bagging / staging via un Ensemble de 
 Note méthodologique complête: 
 [note_methodologique.pdf](https://github.com/ngaude/cdiscount/note_methodologique.pdf)
 
-Reproduire les résultats d'un ensemble à 5 pyramides (67,4%):
+Reproduire les résultats d'un ensemble à 5 pyramides (validation ~73%, test ~67,4%):
 [pipeline.sh](https://github.com/ngaude/cdiscount/pipeline.sh)
