@@ -7,9 +7,9 @@ cdiscount doit assurer une catégorisation homogène de ces produits aux origine
 ##«staged-logistic-regressions ensemble»
 
 ####Note méthodologique complète:
-[note_methodologique.pdf](https://github.com/ngaude/cdiscount/note_methodologique.pdf)
+[note_methodologique.pdf](https://github.com/ngaude/cdiscount/blob/master/note_methodologique.pdf)
 
 
 
 ####Reproduire les résultats d'un ensemble à 5 pyramides (validation ~73%, test ~67,4%):
-[pipeline.sh](https://github.com/ngaude/cdiscount/pipeline.sh)
+[pipeline.sh](https://github.com/ngaude/cdiscount/blob/master/pipeline.sh)
