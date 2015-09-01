@@ -15,15 +15,15 @@ head -n 15500000 $DDIR/training_shuffled_normed.csv > $DDIR/training_head.csv
 tail -n 286885 $DDIR/training_shuffled_normed.csv > $DDIR/training_tail.csv
 
 # sample and train 5 pyramids : 5 x 2h
-time python sampling.py 
+time python sampling.py 0 
 time python training.py 0
-time python sampling.py 
+time python sampling.py 1
 time python training.py 1
-time python sampling.py 
+time python sampling.py 2
 time python training.py 2
-time python sampling.py 
+time python sampling.py 3
 time python training.py 3
-time python sampling.py 
+time python sampling.py 4
 time python training.py 4
 
 # stack & merge results : 5mn
